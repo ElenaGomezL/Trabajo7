@@ -1,0 +1,164 @@
+.contenedor{
+    display: grid;
+    grid-gap: 5px;
+   width: 100%;
+   height: 500px;
+   grid-column: 1/4;
+   grid-row: 1/4;
+}
+.caja1{
+    background-color: red;  
+}
+.caja2{
+    background-color: blue;
+}
+.caja3{
+    background-color: blueviolet;
+}
+
+.caja4{
+    background-color: green;
+}
+
+.caja5{
+    background-color: yellow;
+}
+
+.caja6{
+    background-color: orange;
+}
+
+.caja7{
+    background-color: black;
+}
+
+.caja8{
+    background-color: pink;
+}
+
+.caja9{
+    background-color: grey;
+}
+
+@media (max-width: 320px){
+    
+    .caja1{  
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .caja2{
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    .caja3{
+        grid-column:1/4;
+        grid-row: 3/4;
+    }
+    .caja4{
+        display: none;
+    }
+    .caja5{
+        display: none;
+    }
+    .caja6{
+        display: none;
+    }
+    .caja7{
+        display: none;
+    }
+    .caja8{
+        display: none;
+    }
+    .caja9{
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+        .caja1{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            background-color: blueviolet;
+        }
+    
+        .caja2{ 
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-color: red;
+        }
+        .caja3{
+            grid-column: 1/2;
+            grid-row: 3/4;
+            background-color: blue;
+     
+}
+.caja4{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.caja5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.caja6{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.caja7{
+    display: none;
+}
+.caja8{
+    display: none;
+}
+.caja9{
+    display: none;
+}
+}
+
+@media (min-width: 769px) {
+    .caja1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: blue;
+    }
+
+    .caja2{ 
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-color: blueviolet;
+    }
+    .caja3{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        background-color: red; 
+}
+.caja4{
+grid-column: 2/3;
+grid-row: 1/2;
+background-color: yellow;
+}
+.caja5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: orange;
+}
+.caja6{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: green;
+}
+.caja7{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.caja8{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.caja9{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+}
